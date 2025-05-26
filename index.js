@@ -26,10 +26,10 @@ class Heroi {
         ataque = "um ataque desconhecido";
     }
 
-    console.log(`O heroi ${this.nome} da classe ${this.tipo} atacou usando ${ataque}`);
+    console.log(`O heroi ${this.nome} com ${this.idade} anos de idade da classe ${this.tipo} atacou usando ${ataque} !`);
   }
 }
 
 // Criando um herói e chamando o método atacar
-const meuHeroi = new Heroi("Kratos", 30, "guerreiro");
+const meuHeroi = new Heroi("Kratos", 50, "guerreiro");
 meuHeroi.atacar();
